@@ -3079,6 +3079,7 @@ input, select, textarea {
 		#header h1 {
 			margin: 0 0 0.25em 0;
 			font-family: 'Playfair Display', serif;
+			font-weight: 600;
 			color: #63422C;
 		}
 
@@ -3086,6 +3087,8 @@ input, select, textarea {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
 			font-family: 'Playfair Display', serif;
+			font-weight: 400;
+			font-style: italic;
 			color: #7F5439;
 		}
 

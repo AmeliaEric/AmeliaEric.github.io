@@ -3078,12 +3078,14 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			font-family: 'Playfair Display', serif;
 			color: #563925;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			font-family: 'Playfair Display', serif;
 			color: #563925;
 		}
 

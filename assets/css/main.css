@@ -206,7 +206,6 @@ input, select, textarea {
 		}
 
 	h1 {
-		color: black;
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
@@ -3085,6 +3084,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			color: black;
 		}
 
 		#header.alt {

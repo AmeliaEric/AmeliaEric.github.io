@@ -3295,7 +3295,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: #DFD0A4;
+						background-color: #EAE0C3;
 					}
 
 					#nav ul li a.active {
@@ -3548,10 +3548,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
+			background-image: -webkit-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
+			background-image: -ms-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
+			background-image: linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
 		}
 
 		#main table tbody tr {

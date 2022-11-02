@@ -3548,7 +3548,7 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
+			background-image: -moz-linear-gradient(90deg, #2C2611, #B4973F, #DDD1A7);
 			background-image: -webkit-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
 			background-image: -ms-linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);
 			background-image: linear-gradient(90deg, #B4973F, #CFB977, #FFFFFF);

@@ -2291,7 +2291,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #656C41;
+			color: #747c51;
 		}
 
 		.icon.style2 {
@@ -3228,7 +3228,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #e9dfc4;
+		background-color: #f5efdf;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;

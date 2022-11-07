@@ -3228,7 +3228,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #CAB47A;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3236,7 +3236,7 @@ input, select, textarea {
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #2C2611;
 		}
 
 		#nav a:hover {
@@ -3244,7 +3244,7 @@ input, select, textarea {
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #2C2611;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {

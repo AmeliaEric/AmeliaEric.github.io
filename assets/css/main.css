@@ -1957,7 +1957,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #333624;
+			background-color: #4D5236;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -2157,8 +2157,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #333624;
-			box-shadow: 0 0 0 1px #333624;
+			border-color: #4D5236;
+			box-shadow: 0 0 0 1px #4D5236;
 		}
 
 	select {
@@ -2190,8 +2190,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #333624;
-		box-shadow: 0 0 0 1px #333624;
+		border-color: #4D5236;
+		box-shadow: 0 0 0 1px #4D5236;
 	}
 
 	::-webkit-input-placeholder {
@@ -3420,7 +3420,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #333624;
+				background-color: #4D5236;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3467,8 +3467,8 @@ input, select, textarea {
 			#main input[type="email"]:focus,
 			#main select:focus,
 			#main textarea:focus {
-				border-color: #333624;
-				box-shadow: 0 0 0 1px #333624;
+				border-color: #4D5236;
+				box-shadow: 0 0 0 1px #4D5236;
 			}
 
 		#main select {
@@ -3500,8 +3500,8 @@ input, select, textarea {
 
 		#main input[type="checkbox"]:focus + label:before,
 		#main input[type="radio"]:focus + label:before {
-			border-color: #333624;
-			box-shadow: 0 0 0 1px #333624;
+			border-color: #4D5236;
+			box-shadow: 0 0 0 1px #4D5236;
 		}
 
 		#main ::-webkit-input-placeholder {

@@ -80,7 +80,7 @@
 									</li>
 									<li>
 										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
+										<h3>Programming Languages</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li>
 									<li>
@@ -136,22 +136,24 @@
 						<!-- Contact Form-->
 						<section id="ctf" class="main special">
 							<h2>Contact Form</h2>
-							<form method="post" action="#">
+							<form action="https://formsubmit.co/ericmarkovica@gmail.com" method="POST">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+										<input type="hidden" name="_next" value="https://ameliaeric.github.io/ThankYou.html">
+										<input type="text" name="name" id="name" value="" placeholder="Name" required/>
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+										<input type="email" name="email" id="email" value="" placeholder="Email" required/>
 									</div>
 									<div class="col-12">
-										<select name="demo-category" id="demo-category">
+										<select name="category" id="category" required>
 											<option value="">- Category -</option>
-											<option value="1">Career</option>
-											<option value="2">Colaboration</option>
-											<option value="3">Question</option>
-											<option value="4">Other/General</option>
+											<option value="Career">Career</option>
+											<option value="Colaboration">Colaboration</option>
+											<option value="Question">Question</option>
+											<option value="Other/General">Other/General</option>
 										</select>
+										<input type="hidden" name="_subject" value="#category">
 									</div>
 									<div class="col-4 col-12-small">
 										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
@@ -174,7 +176,7 @@
 										<label for="demo-human">Not a robot</label>
 									</div>
 									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" required></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">

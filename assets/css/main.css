@@ -71,7 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+/* Used by ReadMore Function*/
+#more {
+	display: none;
+}
 /* Basic */
 
 	@-ms-viewport {

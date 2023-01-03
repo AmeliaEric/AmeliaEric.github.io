@@ -99,13 +99,13 @@
 									  <span class="icon solid major style1 fa-lightbulb"></span>
 									  <h3>Schooling</h3>
 									  <p>I am currently pursuing an <b>Advanced Diploma in Computer Programming and Analysis at Durham College</b>.<span id="dots">...</span><span id="more"> My field of study is Computer Science, and I have excelled academically so far, maintaining a <b>5.0 GPA</b> and earning an average grade of <b>95.5%</b> across all completed semesters. My goal is to continue this level of <b>academic achievement</b> and graduate with a solid understanding of my chosen field. I am <b>determined</b> to succeed in my studies and achieve my career goals.</span></p>
-									  <button onclick="ReadMore()" id="myBtn" class="button primary">Read More</button>
+									  <button onclick="ReadMore('first')" id="firstmyBtn" class="button primary">Read More</button>
 									</li>
 									<li>
 										<span class="icon solid major style3 fa-code"></span>
 										<h3>Programming Languages</h3>
-										<p>As a skilled software developer, I have gained experience with a <b>wide range of programming languages and technologies</b>, including HTML5, CSS, PHP, SQL, Python, Java, C++, C#, Linux, Selenium Web Drivers, Bootstrap, .NET Frameworks, and .ASP Frameworks.<span id="dots">...</span><span id="more"></span> In addition to my current expertise, I have also committed to <b>staying up-to-date with the latest technologies</b> and am planning to learn JavaScript and Cobalt in the coming semester. I am a <b>dedicated learner</b> who is always seeking to <b>improve and expand my skills</b>, making me a valuable asset to any team.</p>
-										<button onclick="ReadMore()" id="myBtn" class="button primary">Read More</button>
+										<p>As a skilled up and coming software developer, I have gained experience with a <b>wide range of programming languages and technologies</b>, including HTML5, CSS, PHP, SQL, Python, Java, C++, C#, Linux, Selenium Web Drivers, Bootstrap, .NET Frameworks, and .ASP Frameworks.<span id="dots">...</span><span id="more"></span> In addition to my current expertise, I have also committed to <b>staying up-to-date with the latest technologies</b> and am planning to learn JavaScript and Cobalt in the coming semester. I am a <b>dedicated learner</b> who is always seeking to <b>improve and expand my skills</b>, making me a valuable asset to any team.</p>
+										<button onclick="ReadMore('second')" id="secondmyBtn" class="button primary">Read More</button>
 									</li>
 									<li>
 										<span class="icon solid major style5 fa-keyboard"></span>
@@ -247,20 +247,19 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 				// A Read More/Less Function
-				function ReadMore() {
-					var dots = document.get;
-					var dots = document.getElementById("dots");
-					var moreText = document.getElementById("more");
-					var btnText = document.getElementById("myBtn");
-				
+				function ReadMore(id) {
+					var dots = document.getElementById(id + "dots");
+					var moreText = document.getElementById(id + "more");
+					var btnText = document.getElementById(id + "myBtn");
+
 					if (dots.style.display === "none") {
-					dots.style.display = "inline";
-					btnText.innerHTML = "Read More";
-					moreText.style.display = "none";
+						dots.style.display = "inline";
+						btnText.innerHTML = "Read more";
+						moreText.style.display = "none";
 					} else {
-					dots.style.display = "none";
-					btnText.innerHTML = "Read Less";
-					moreText.style.display = "inline";
+						dots.style.display = "none";
+						btnText.innerHTML = "Read less";
+						moreText.style.display = "inline";
 					}
 				} 
 			</script>

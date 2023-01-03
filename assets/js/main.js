@@ -3,22 +3,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-// A Read More/Less Function
-function ReadMore() {
-	var dots = document.getElementById("dots");
-	var moreText = document.getElementById("more");
-	var btnText = document.getElementById("myBtn");
-  
-	if (dots.style.display === "none") {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "Read more";
-	  moreText.style.display = "none";
-	} else {
-	  dots.style.display = "none";
-	  btnText.innerHTML = "Read less";
-	  moreText.style.display = "inline";
-	}
-  } 
+
 (function($) {
 
 	var	$window = $(window),

@@ -3300,7 +3300,7 @@ input, select, textarea {
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
-					color: #7F5439;
+					color: #63422C;
 				}
 
 					#nav ul li a:hover {
@@ -3347,24 +3347,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #7F5439;
+		color: #63422C;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main a:hover {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main strong, #main b {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main blockquote {
@@ -3391,7 +3391,7 @@ input, select, textarea {
 		#main .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #7F5439 !important;
+			color: #63422C !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3453,7 +3453,7 @@ input, select, textarea {
 				}
 
 		#main label {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main input[type="text"],
@@ -3479,13 +3479,13 @@ input, select, textarea {
 		}
 
 			#main select option {
-				color: #7F5439;
+				color: #63422C;
 				background: #ffffff;
 			}
 
 		#main input[type="checkbox"] + label,
 		#main input[type="radio"] + label {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 			#main input[type="checkbox"] + label:before,
@@ -3496,8 +3496,8 @@ input, select, textarea {
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
-			background-color: #7F5439;
-			border-color: #7F5439;
+			background-color: #63422C;
+			border-color: #63422C;
 			color: #ffffff;
 		}
 
@@ -3537,7 +3537,7 @@ input, select, textarea {
 
 		#main .icon.alt {
 			border-color: #dddddd;
-			color: #7F5439;
+			color: #63422C;
 		}
 
 			#main .icon.alt:hover {
@@ -3553,7 +3553,7 @@ input, select, textarea {
 		}
 
 		#main dl dt {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main header.major h2:after {
@@ -3573,7 +3573,7 @@ input, select, textarea {
 			}
 
 		#main table th {
-			color: #7F5439;
+			color: #63422C;
 		}
 
 		#main table thead {
